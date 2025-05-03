@@ -5,11 +5,13 @@
     font-weight: bold;
     font-style: normal;
     font-display: swap;
+    --input-shadow: 10px 10px 10px rgba(43, 43, 43, 0.735);
 }
 :root{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border-style: none;
 }
 html{
     height: 100%;
@@ -115,22 +117,23 @@ display: flex;
 gap: 70px;
 }
 input{
+    outline: none;
     width: 14vw;
-}
-input{
-    border: solid #E5E7EB;
+    border: 1px solid #E5E7EB;
     height: 20px;
     border-radius: 3px;
 }
 label{
     letter-spacing: 0.5px;
 }
-
 input:focus{
-    border: solid 2.5px rgb(5, 96, 222);
+    border-color: blue;
+    border:  2px solid rgb(5, 96, 222);
+    border-radius: 3px;
+    box-shadow: 10px 10px 15px rgba(102, 102, 102, 0.217);
 }
 input:invalid{
-    border: solid 2.5px rgb(241, 44, 5);
+    border: solid 2px rgb(241, 44, 5);
 }
 button{
     width: 170px;
