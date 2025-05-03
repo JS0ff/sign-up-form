@@ -23,6 +23,8 @@ body{
 }
 
 #first-section {
+    display: flex;
+    justify-content: center;
     position:relative;
     background-color: rgb(104, 192, 162);
     width: 50%;
@@ -48,4 +50,17 @@ header{
 header h1{
     font-size: 12vh;
     margin-bottom: 45px;
+}
+#first-section footer{
+    align-self: flex-end;
+}
+
+#first-section footer a{
+    color: rgba(255, 255, 255, 0.724);
+    list-style-type: none;
+}
+#first-section footer p{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.724);
+    list-style-type: none;
 }
