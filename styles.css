@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Norse';
-    src: url('/transfonter.org-20250503-070953/Norse-Bold.woff2') format('woff2'),
-        url('/transfonter.org-20250503-070953/Norse-Bold.woff') format('woff');
+    src: url('/fonts/Norse-Bold.woff2') format('woff2'),
+        url('/fonts/Norse-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -26,7 +26,7 @@ body{
     position:relative;
     background-color: rgb(104, 192, 162);
     width: 50%;
-    background: url(halie-west-25xggax4bSA-unsplash.jpg) ;
+    background: url(/background-image/halie-west-25xggax4bSA-unsplash.jpg) ;
     background-size: 100% 100%;
 }
 #second-section{
