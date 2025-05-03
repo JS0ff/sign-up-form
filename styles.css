@@ -88,24 +88,15 @@ header h1{
 }
 .form{
     background-color:rgb(255, 255, 255);
-    height: 260px;
+    height: 230px;
     position: relative;
-    bottom: 75px;
+    bottom: 90px;
     padding-left: 45px;
-
+    box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.173);
 }
-.form p{
-    font-size: 20px;
-    font-weight: 500;
-}
-.first-row{
-    display: flex;
-}
-.second-row{
-    display: flex;
-}
-.third-row{
-    display: flex;
+.form>p{
+    font-weight: 550;
+    font-size: 18px;
 }
 form{
     display: flex;
@@ -119,9 +110,45 @@ form{
     flex-direction: column;
 }
 .row{
+display: flex;
  width: 80%;
 gap: 70px;
 }
 input{
-    width: 18vw;
+    width: 14vw;
+}
+input{
+    border: solid #E5E7EB;
+    height: 20px;
+    border-radius: 3px;
+}
+label{
+    letter-spacing: 0.5px;
+}
+
+input:focus{
+    border: solid 2.5px rgb(5, 96, 222);
+}
+input:invalid{
+    border: solid 2.5px rgb(241, 44, 5);
+}
+button{
+    width: 170px;
+    height: 37px;
+    background-color: #596D48;
+    border: none;
+    border-radius: 5px;
+    color: ghostwhite;
+    font-weight: 600;
+}
+.button-section{
+    position: relative;
+    top: 40px;
+}
+.button-section a{
+    color: #596D48;
+    text-decoration: none;
+}
+.button-section p{
+    font-size: 12px;
 }
