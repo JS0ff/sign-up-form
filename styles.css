@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Norse';
+    src: url('/transfonter.org-20250503-070953/Norse-Bold.woff2') format('woff2'),
+        url('/transfonter.org-20250503-070953/Norse-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
 :root{
     margin: 0;
     padding: 0;
@@ -15,6 +23,7 @@ body{
 }
 
 #first-section {
+    position:relative;
     background-color: rgb(104, 192, 162);
     width: 50%;
     background: url(halie-west-25xggax4bSA-unsplash.jpg) ;
@@ -23,4 +32,20 @@ body{
 #second-section{
     background-color: rgb(103, 221, 181);
     width: 70%;
+}
+header{
+    font-family: 'Norse';
+    background-color:rgba(0, 0, 0, 0.434);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    top: 150px;
+    height: 150px;
+    width: 100%;
+}
+header h1{
+    font-size: 12vh;
+    margin-bottom: 45px;
 }
