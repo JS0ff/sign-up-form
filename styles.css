@@ -132,7 +132,7 @@ input:focus{
     border-radius: 3px;
     box-shadow: 10px 10px 15px rgba(102, 102, 102, 0.217);
 }
-input:invalid{
+input:user-invalid{
     border: solid 2px rgb(241, 44, 5);
 }
 button{
