@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Norse';
-    src: url('/fonts/Norse-Bold.woff2') format('woff2'),
-        url('/fonts/Norse-Bold.woff') format('woff');
+    src: url('fonts/Norse-Bold.woff2') format('woff2'),
+        url('fonts/Norse-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -30,8 +30,7 @@ body{
     position:relative;
     background-color: rgb(104, 192, 162);
     width: 50%;
-    background: url(https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?q=80&w=1862&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-    background: url(/background-image/halie-west-25xggax4bSA-unsplash.jpg);
+    background: url(background-image/halie-west-25xggax4bSA-unsplash.jpg);
     background-size: 100% 100%;
 }
 #second-section{
